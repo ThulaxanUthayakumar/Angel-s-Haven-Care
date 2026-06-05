@@ -1,0 +1,122 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+
+  background: url("https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd")
+    center center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+
+  padding: 100px 8%;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+
+  max-width: 700px;
+  color: #fff;
+}
+
+.hero-tag {
+  display: inline-block;
+
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  color: #c8a66a;
+
+  margin-bottom: 20px;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+
+  max-width: 650px;
+}
+
+.hero-features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  margin-bottom: 30px;
+
+  font-size: 1rem;
+}
+
+.event-box {
+  background: rgba(255, 255, 255, 0.12);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  backdrop-filter: blur(8px);
+
+  padding: 20px;
+  border-radius: 12px;
+
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-btn {
+  background: #c8a66a;
+  color: #1f332d;
+
+  border: none;
+
+  padding: 16px 35px;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 90vh;
+
+    padding: 80px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-btn {
+    width: 100%;
+  }
+}
