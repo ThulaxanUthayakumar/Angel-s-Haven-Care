@@ -1,16 +1,83 @@
-# React + Vite
+# Angel's Haven Care Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive landing page built with React for a residential assisted living and senior care provider. The website is designed to showcase services, highlight care features, and collect event registrations through an RSVP form.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive Design
+* Modern UI/UX
+* React + Vite
+* EmailJS Integration
+* RSVP Registration Form
+* About Us Section
+* Services Section
+* Gallery Section
+* Why Choose Us Section
+* Mobile-Friendly Layout
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Vite
+* CSS3
+* React Icons
+* EmailJS
+* Framer Motion
 
-## Expanding the ESLint configuration
+## Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Hero Section
+* Comfort Features
+* About Us
+* Why Choose Us
+* Services
+* Gallery
+* RSVP Form
+* Call To Action
+* Footer
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ThulaxanUthayakumar/Angel-s-Haven-Care.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## EmailJS Configuration
+
+Update the following values in the RSVP form component:
+
+* SERVICE_ID
+* TEMPLATE_ID
+* PUBLIC_KEY
+
+## Project Goals
+
+* Create a professional online presence
+* Improve user engagement
+* Increase event registrations
+* Deliver a seamless mobile experience
+* Showcase senior care services in a modern way
+
+## License
+
+This project is intended for educational and portfolio purposes.
